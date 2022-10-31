@@ -1,0 +1,253 @@
+.container{
+    font-family: 'Bellefair', serif;
+    background-image: url('../../public/assets/crew/background-crew-desktop.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+     /* esconde el scroll X e Y */
+   
+
+}
+.titulo-crew {
+    font-size: 28px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.titulo-crew small{
+    margin-right: 0.5rem;
+    font-size: 30px;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+.crew-container{
+    /* border: solid white 3px; */
+    height: auto;
+    width: 81vw;
+    display: flex;
+    flex-direction:column;
+    margin-top: 3rem;
+}
+.card-crew{
+    /* border: solid blue 2px; */
+    width: 45vw;
+}
+
+
+/* cards */
+
+.crew-items-container{
+    
+    /* border: solid rgb(161, 14, 14) 3px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3rem;
+   
+    /* font-family: 'Bellefair', serif;
+    font-family: 'Roboto Serif', serif; */
+}
+
+.nav-crew   ul{
+    /* border: solid blue 5px; */
+    margin-top: 3rem; 
+    height: 18px;
+    width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.links-crew{
+
+    /* border: solid red 2px; */
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    -webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out;
+    transition: background-color 0.2s ease-out;
+}
+
+.links-crew:hover{
+    background-color: #2a2931;
+    cursor: pointer;
+    -webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out;
+    transition: background-color 0.2s ease-out;
+}
+
+.images img{
+    /* border: solid red 3px; */
+    position: absolute;
+    bottom:0rem;
+    right: 10rem;
+    
+    
+} 
+
+.card{
+    /* border: solid rgb(155, 65, 65) 2px; */
+    height: auto;
+    margin-top: 6rem;
+
+  
+}
+.card-role{
+    font-size: 32px;
+    color: #777c80;
+    text-transform: uppercase;
+    font-weight: 100;
+}
+.card-name{
+    /* border: solid 2px red; */
+    display: block;
+    font-size: 56px;
+    color: #FFFFFF;
+    margin-top:1rem;
+    margin-bottom: 3rem;
+    font-family: 'Bellefair', serif;
+    font-weight: 100;
+    text-transform: uppercase;
+    
+}
+.card p{
+    /* border: solid 2px rgb(20, 198, 47); */
+    font-size: 18px;
+    color: #FFFFFF;
+    width: 488px;
+    text-align: left;
+    word-spacing: 0.01rem;
+    line-height: 1.6rem;
+    font-family: 'Barlow Condensed', sans-serif;
+    
+}
+
+@media (max-width:1280px) {
+    .crew-container{
+        /* border: solid rgb(133, 17, 17) 3px; */
+        margin-left: 5rem;
+       
+    }
+    .card-crew{
+        /* border: solid blue 2px; */
+        width: 44vw;
+    }
+
+    /* cards */
+    
+    .crew-items-container{
+        
+        /* border: solid rgb(208, 202, 202) 3px; */
+        margin-top: 5rem;
+      
+    }
+    .images img{
+        /* border: solid red 3px; */
+        position: absolute;
+        bottom:-6rem;
+        right: 4rem;
+        height: 73vh;
+        width: auto;
+        
+        
+    } 
+    
+    .card{
+        /* border: solid rgb(155, 65, 65) 2px; */
+        height: auto;
+        margin-top: 6rem;
+    
+      
+    }
+    .card-role{
+        font-size: 30px;
+    }
+    .card-name{
+        /* border: solid 2px red; */
+        display: block;
+        font-size: 50px;     
+    }
+    .card p{
+        width: 40vw;
+    }
+    
+
+}
+
+@media (max-width:992px) {
+    .container{
+        font-family: 'Bellefair', serif;
+        background-image: url('../../public/assets/crew/background-crew-tablet.jpg');
+        background-position: 10% 50%;
+         /* esconde el scroll X e Y */
+       
+    
+    }
+    .titulo-crew{
+       font-size: 20px;
+       font-family: 'Barlow Condensed', sans-serif;
+    }
+    .titulo-crew small{
+        font-size: 26px;
+      
+    }
+   
+    .crew-items-container{
+    
+        /* border: solid rgb(11, 11, 11) 3px; */
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0rem;
+    
+    }
+    .card-crew{
+        /* border: solid rgb(47, 27, 135) 5px; */
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        margin: 0rem;
+        margin-top: 5rem;
+    }
+    .card{
+        /* border: solid white 2px; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1rem;
+    }
+    .card-role{
+        font-size: 24px;
+    }
+    .card-name{
+        /* border: solid 2px red; */
+        font-size: 40px;
+        margin-top:0rem;
+        margin-bottom: 0rem;
+ 
+    }
+    .card p{
+        /* border: solid 2px rgb(20, 198, 47); */
+        font-size: 16px;
+        text-align: center;  
+    }
+    .nav-crew {
+        /* border: 3px red solid; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .images img{
+        /* border: solid red 3px; */
+        position: absolute;
+        bottom:-6rem;
+        right: 10rem;
+        height: 572px;
+        width: auto;
+        
+    }
+ 
+}

@@ -1,0 +1,335 @@
+
+
+/* sm: 576px,
+md: 768px,
+lg: 992px,
+xl: 1200px, */
+
+.homePage-container{
+    /* position: absolute;
+    z-index: 1; */
+    background-image: url('../../../public/assets/home/background-home-desktop.jpg');
+    background-position: 10% 25% ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    min-width: 100vw;
+    overflow: hidden;
+
+}
+
+.home-container{
+    padding-bottom: 0px;
+    width: 81vw;
+    margin-top: 15rem;
+    margin-left:2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+     /* border:solid rgb(59, 4, 4) 4px;  */
+}
+.card-home{
+    margin: 0px;
+    width: 450px;
+    height: 382px;
+     
+}
+.card-home h4{
+    
+    font-weight: 100;
+    text-align: left;
+    font-family: 'Barlow Condensed', sans-serif;
+    letter-spacing: 4.75px;
+    color: #D0D6F9; 
+    font-size: 28px;
+}
+.card-home h1{
+    padding-top: 0;
+    display: block;
+    margin: auto;
+    color:  #FFFFFF;
+    letter-spacing: 0rem;
+    /* font-family: 'Bellefair', serif; */
+   
+}
+
+.explore{
+    position: relative;
+    top: 5rem;
+    background-color: #37456500;
+    border-radius: 50%;
+    width: 450px;
+    height: 450px;
+    /*trassiiones sueves  */
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+
+}
+.explore:hover {
+   
+    -webkit-transition: background-color 0.3s ease-out;
+    -moz-transition: background-color 0.3s ease-out;
+    -o-transition: background-color 0.3s ease-out;
+    transition: background-color 0.3s ease-out;
+   background-color: #3745659d;
+  
+}
+
+
+
+.circulo{
+    margin: auto;
+    position: relative;
+    bottom:3rem;
+    display: table;
+    width: 280px;
+    height: 280px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    margin-top: 8.5rem;
+    cursor:pointer;
+}
+.circulo h3{
+    display: block;
+    margin: auto;
+    color: #0B0D17;
+    font-size: 37px;
+    text-align: center;
+    font-weight:lighter;
+    letter-spacing: 2px;
+    /* border: solid 2px red; */
+    /* display table-cell en el hijo  */
+    display: table-cell;
+    vertical-align: middle;
+    /* centra verticalmente */
+   
+}
+
+@media  (max-width: 1280px)  { 
+
+    .home-container{
+        margin-top: 9rem;
+        margin-left: 7vw;
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between ;
+        align-items: center;
+        /* border:solid rgb(131, 226, 30) 4px; */
+    }
+    .card-home{
+        margin: 0px;
+        width: 440px;
+        height: 372px;
+        /* border:solid rgb(238, 233, 233) 4px; */
+         
+    }
+    .card-home h4{
+        
+        font-size: 26px;
+    }
+    .card-home h1{
+
+        font-size: 137px;
+
+        /* font-family: 'Bellefair', serif; */
+       
+    }
+    
+    .explore{
+      
+        top: 4rem;
+        width: 370px;
+        height: 370px;
+        /* border: solid red 2px; */
+    }
+
+    
+    .circulo{
+     
+        bottom:5rem;
+        display: table;
+        width: 250px;
+        height: 250px;
+
+        
+    }
+
+
+}
+
+
+@media (max-width:992px) {
+    .homePage-container{
+        
+        background-image: url('../../../public/assets/home/background-home-tablet.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        min-width: 100vw;
+        align-items: center;
+       
+    }
+
+    .home-container{
+    padding-bottom: 0px;
+    width: 80vw;
+    margin-top: 12rem;
+    margin-left: 0vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    /* border:solid rgb(253, 255, 252) 5px; */
+    }
+    .card-home{
+        margin: 0px;
+        width: 452px;
+        height: 338px;
+        /* border: solid 2px red; */
+         
+    }
+    .card-home h4{
+        display:flex;
+        justify-content: center;
+        letter-spacing: 4.75px;
+        color: #D0D6F9; 
+        font-size: 20px;
+    }
+    .card-home h1{
+        font-size: 140px;
+        display:flex;
+        justify-content: center;
+        /* font-family: 'Bellefair', serif; */
+       
+    }
+    .tex-body{
+        text-align: center;
+        display:flex;
+        justify-content: center;
+        font-size: 18px;
+    }
+    
+    .explore{
+        /* border: solid red 2px; */
+        display: block;
+        margin: auto;
+        margin-top: 2rem;
+    
+        background-color: #37456500;
+        border-radius: 50%;
+        width: 350px;
+        height: 350px;
+       
+    
+    }
+
+    .circulo{
+        bottom:5rem;
+        width: 242px;
+        height: 242px;
+        margin-top: 8.5rem;
+       
+    }
+    .circulo h3{
+       
+        font-size: 32px;
+      
+       
+    }
+    
+
+    
+}
+
+ 
+@media (max-width: 767px) { 
+
+    .homePage-container{
+        background-image: url('../../../public/assets/home/background-home-mobile.jpg');
+        background-position:  10% ;
+        background-size: cover;
+        background-repeat: no-repeat;
+        min-height: 100vh;
+        min-width: 100vw;
+      
+        
+
+    }
+
+    .home-container{
+        position: relative;
+        padding-bottom: 0px;
+        width: 82vw;
+        height: auto;
+        margin-left: 0em;
+        margin-top: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content:center ;
+        align-items: center;
+        /* border:solid rgb(143, 218, 13) 4px; */
+        }
+
+        .card-home{
+            margin: 0px;
+            margin-top: 0rem;
+            width: 327px;
+            height: 276px;
+            /* border: solid 2px red; */
+          
+             
+        }
+        .card-home h4{
+            display:flex;
+            justify-content: center;
+            letter-spacing: 3.5px;
+            color: #D0D6F9; 
+            font-size: 19px;
+        }
+        .card-home h1{
+            font-size: 80px;
+            display:flex;
+            justify-content: center;
+            margin-top: 1.5rem;
+            margin-bottom: 3rem;
+            /* font-family: 'Bellefair', serif; */
+           
+        }
+        .tex-body{
+            text-align: center;
+            display:flex;
+            justify-content: center;
+            font-size: 17px;
+        }
+        .explore{
+            
+            background-color: #37456500;
+            border-radius: 50%;
+            width: 220px;
+            height: 220px;
+            top: 3rem;
+            border: solid rgba(249, 249, 249, 0) 2px;  /* ?border solid trasparente: hack para que se posicione correctamente*/
+           
+        
+        }
+        .circulo{
+            position: relative;
+            bottom: 6rem;
+            width: 150px;
+            height: 150px;
+           
+           
+        }
+        .circulo h3{
+           
+            font-size: 19px;
+          
+           
+        }
+       
+  
+}
+
